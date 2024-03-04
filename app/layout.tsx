@@ -9,16 +9,16 @@ import clsx from "clsx";
 
 export const metadata: Metadata = {
   title: "InkersMNL",
+  applicationName: "InkersMNL",
   description:
     "InkersMNL specializes in providing high-quality printing services with a primary focus on stickers tailored for a variety of purposes including packaging, decorations, and more. With a commitment to excellence, InkersMNL offers a wide range of options to meet the diverse needs of businesses and individuals alike. Whether it's custom labels for product packaging, vibrant decals for creative decorations, or specialized stickers for promotional campaigns, InkersMNL delivers top-notch printing solutions with attention to detail and precision. With a dedication to customer satisfaction and a reputation for reliability, InkersMNL stands as a trusted partner for all printing needs, ensuring each project receives the utmost care and attention to bring visions to life with vibrant colors, crisp designs, and durable materials.",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
-  icons: {
-    icon: "/images/logo.jpg",
-  },
+  icons: "/images/logobg-preview.png",
   generator: "typescript, react, nextjs, tailwindcss",
+  publisher: "Yocor,Saturno,Garcia",
   creator: "Yocor,Saturno,Garcia",
 };
 
